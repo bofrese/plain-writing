@@ -1,0 +1,21 @@
+{
+  "name": "plain-writing",
+  "version": "0.1.0",
+  "description": "Removes AI slop from everything Claude writes. Technical text follows an ASD-STE100-inspired plain style; published text follows your own voice guide.",
+  "author": {
+    "name": "Bo Frese",
+    "url": "https://bofrese.dk"
+  },
+  "homepage": "https://github.com/bofrese/plain-writing",
+  "repository": "https://github.com/bofrese/plain-writing",
+  "license": "Apache-2.0",
+  "keywords": ["writing", "style", "ai-slop", "technical-writing", "ste100", "plain-english"],
+  "userConfig": {
+    "always_on": {
+      "type": "boolean",
+      "title": "Apply in every session",
+      "description": "Load the writing rules at the start of every session, so they also apply to chat, code comments and commit messages. If false, the rules apply only when a skill asks for them.",
+      "default": true
+    }
+  }
+}
